@@ -39,14 +39,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #003872;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #414141;
+    background: #004286;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -55,14 +55,14 @@
       width: 250px;
       height: 354px;
       background: url("../img/records.jpg");
-      border: solid 3px #eece1a; }
+      border: solid 3px #99ddff; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #99ddff; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -74,7 +74,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eece1a; }
+      color: #99ddff; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -92,11 +92,11 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #00458b;
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'EB Garamond', serif;
   line-height: 1.5; }
 
 h1, h2, h3 {
@@ -107,7 +107,7 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(0, 74, 149, 0.5); }
 
 a {
   color: #fff;
@@ -119,7 +119,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #99ddff; }
 
 main {
   padding: 4rem;
@@ -129,7 +129,7 @@ main {
     main .icons a {
       padding: .4rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color: #99ddff;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -146,7 +146,7 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #eece1a 3px solid; }
+  border: #99ddff 3px solid; }
 
 .bio {
   grid-area: bio;
@@ -162,7 +162,7 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #515151;
+  background: #0052a5;
   padding: 0.5rem; }
 
 .projects {
@@ -174,8 +174,11 @@ main {
     border: 3px solid #fff; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #99ddff;
       transition: all 0.5s ease-out; }
+  .projects .project-description {
+    margin-top: 3px;
+    background: #001225; }
 
 .boxes {
   display: flex;
@@ -191,7 +194,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
+      background: #99ddff;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -202,7 +205,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
+    background: #99ddff;
     color: #000; }
 
 .btn-dark {
@@ -210,23 +213,23 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #8bc5ff;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #002c58;
   color: #fff;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {

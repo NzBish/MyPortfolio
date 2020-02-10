@@ -1,14 +1,14 @@
 //Widescreen
 @include mediaXL{
     .projects{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 //Desktops
 @include mediaLg{
     .projects{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
     
@@ -22,7 +22,7 @@
         .lg-heading{
             line-height: 1;
             margin-bottom: 1rem;
-        }
+        }        
     }
     ul.menu-nav, div.menu-branding{
         float: none;
