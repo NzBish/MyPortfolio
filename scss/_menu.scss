@@ -77,10 +77,11 @@
             //Slide up
             transform: translate3d(0,0,0);
         }
-        .records{
+        .portrait{
             width: 250px;
-            height: 354px;
-            background: url('../img/records.jpg');
+            height: 250px;
+            background: url('../img/portrait.jpg');
+            border-radius: 50%;
             border: solid 3px $secondary-color;
         }
     }
